@@ -3,17 +3,17 @@ import 'dart:developer';
 import 'package:http/http.dart' as http;
 
 class ChatApi {
-  static Future<String> generateText(String prompt) async {
+  static Future<String> generateText(String prompt, String version) async {
     try {
       var url = Uri.parse('https://api.openai.com/v1/chat/completions');
       var response = await http.post(url,
           headers: {
             "Content-Type": "application/json",
             "Authorization":
-                "Bearer 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",
+                "Bearer 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",
           },
           body: json.encode({
-            "model": "gpt-3.5-turbo",
+            "model": version,
             "messages": [
               {"role": "user", "content": prompt}
             ],
@@ -23,6 +23,7 @@ class ChatApi {
         log(response.body);
         return response.body;
       } else {
+        log("Failed >>>>>>>>>>>>>>>>> ${response.statusCode}");
         return "Failed: ${response.body}";
       }
     } catch (e) {

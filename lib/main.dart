@@ -1,4 +1,4 @@
-import 'package:chat_gpt_demo/screens/chat_screen.dart';
+import 'package:chat_gpt_demo/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,12 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ChatScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }
-
