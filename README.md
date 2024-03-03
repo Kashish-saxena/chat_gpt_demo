@@ -1,16 +1,20 @@
-# chat_gpt_demo
 
-A new Flutter project.
+# Chat Gpt Clone
 
-## Getting Started
+This Flutter app showcases the implementation of a ChatGPT clone using the open_api_chat_gpt package from pub.dev. It utilizes the ListView.builder widget for efficient rendering of chat messages.
 
-This project is a starting point for a Flutter application.
+# Working Demo
 
-A few resources to get you started if this is your first Flutter project:
+<table>
+<tr>
+<td><img src="https://github.com/Kashish-saxena/chat_gpt_demo/blob/master/media/chat_gpt.gif"></td>
+</tr>
+</table>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Android Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## iOS Screenshots
+
+## Installation 
+
+
