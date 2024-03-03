@@ -7,7 +7,7 @@ This Flutter app showcases the implementation of a ChatGPT clone using the open_
 
 <table>
 <tr>
-<td><img src="https://github.com/Kashish-saxena/chat_gpt_demo/blob/master/media/chat_gpt.gif"></td>
+<td><img src="https://github.com/Kashish-saxena/chat_gpt_demo/blob/master/media/chat_gpt.gif" height="480px"></td>
 </tr>
 </table>
 
